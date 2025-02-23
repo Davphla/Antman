@@ -1,3 +1,4 @@
+```
   ____  ____   ______ 
  /    ||    \ |      |
 |  o  ||  _  ||      |
@@ -5,8 +6,8 @@
 |  _  ||  |  |  |  |  | '_ ` _ \ / _` | '_ \ 
 |  |  ||  |  |  |  |  | | | | | | (_| | | | |
 |__|__||__|__|  |__|  |_| |_| |_|\__,_|_| |_|
-
-# Antman - File compression algorithm
+```
+# Antman - Lossless file compression 
 
 Antman is a data compression project written in C. It consists of two programs:
 
@@ -28,15 +29,15 @@ make re - Cleans and recompiles the project.
 
 ## Antman (Compression)
 
-./antman/antman <input_file> <file_type>
+`./antman/antman <input_file> <file_type>`
 
 <input_file>: Path to the file to be compressed.
 
 <file_type>: A number indicating the type of file:
 
-1 - Text files (e.g., song lyrics)
-2 - HTML files
-3 - P3 PPM images
+- 1 - Text files (e.g., song lyrics)
+- 2 - HTML files
+- 3 - P3 PPM images
 
 ### Example:
 
@@ -65,6 +66,7 @@ Compression should work efficiently, even for large files.
 
 # Project Structure
 
+```
 .
 ├── antman
 │   ├── antman.c
@@ -76,7 +78,7 @@ Compression should work efficiently, even for large files.
 │   ├── ... (other source files)
 ├── Makefile (root Makefile to compile both binaries)
 └── README.md
-
+```
 ## Creators
  - [David Gozlan](https://github.com/Davphla)
  - [Mikaël Vallenet](https://github.com/Mikatech)
