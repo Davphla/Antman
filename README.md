@@ -17,6 +17,8 @@ Antman is a data compression project written in C. It consists of two programs:
 This project implements lossless compression, ensuring that decompressed files match the original exactly.
 We implemented **Huffman algorithm** (Bytecode) and **LZ77** (Repetition).
 
+It can reduce size of song file by 40%, average files by 50%, and images by 80%.
+
 # Compilation
 ```
 make - Compiles both binaries (antman and giantman).
@@ -79,9 +81,8 @@ Compression should work efficiently, even for large files.
 ├── Makefile (root Makefile to compile both binaries)
 └── README.md
 ```
-## Creators
+## Developpers 🚀
  - [David Gozlan](https://github.com/Davphla)
  - [Mikaël Vallenet](https://github.com/Mikatech)
 
-Happy coding! 🚀
 
