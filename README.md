@@ -81,7 +81,7 @@ Compression should work efficiently, even for large files.
 ├── Makefile (root Makefile to compile both binaries)
 └── README.md
 ```
-## Developpers 🚀
+## Authors 🚀
  - [David Gozlan](https://github.com/Davphla)
  - [Mikaël Vallenet](https://github.com/Mikatech)
 
